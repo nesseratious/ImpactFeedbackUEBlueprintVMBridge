@@ -28,6 +28,7 @@
 		6445DE08240787550060A324 = {
 			isa = PBXGroup;
 			children = (
+				6445DE2A24088A460060A324 /* ExampleProject */,
 				6445DE1724078C560060A324 /* Images */,
 				6445DE142407876D0060A324 /* Public */,
 				6445DE0F240787690060A324 /* Private */,
@@ -68,6 +69,13 @@
 				6445DE2624078E760060A324 /* WarningNotification.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		6445DE2A24088A460060A324 /* ExampleProject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExampleProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
