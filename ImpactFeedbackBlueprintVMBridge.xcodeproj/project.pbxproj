@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		6445DE10240787690060A324 /* ImpactFeedbackBridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImpactFeedbackBridge.cpp; sourceTree = "<group>"; };
-		6445DE11240787690060A324 /* ImpactFeedbackDarwinBridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImpactFeedbackDarwinBridge.cpp; sourceTree = "<group>"; };
 		6445DE12240787690060A324 /* ImpactFeedbackDarwinBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImpactFeedbackDarwinBridge.h; sourceTree = "<group>"; };
-		6445DE13240787690060A324 /* ImpactFeedbackFunctionLibrary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ImpactFeedbackFunctionLibrary.cpp; sourceTree = "<group>"; };
 		6445DE152407876D0060A324 /* ImpactFeedbackFunctionLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImpactFeedbackFunctionLibrary.h; sourceTree = "<group>"; };
-		6445DE162407876D0060A324 /* ImpactFeedbackBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImpactFeedbackBridge.h; sourceTree = "<group>"; };
 		6445DE1F24078E760060A324 /* Impact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Impact.png; sourceTree = "<group>"; };
 		6445DE2024078E760060A324 /* Selection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Selection.png; sourceTree = "<group>"; };
 		6445DE2124078E760060A324 /* HeavyImpact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeavyImpact.png; sourceTree = "<group>"; };
@@ -29,31 +25,10 @@
 		6445DE08240787550060A324 = {
 			isa = PBXGroup;
 			children = (
+				64B33F102416D8C00027BB2B /* API */,
 				64B33F0E2416D7C60027BB2B /* Example */,
 				6445DE1724078C560060A324 /* Images */,
-				6445DE142407876D0060A324 /* Public */,
-				6445DE0F240787690060A324 /* Private */,
 			);
-			sourceTree = "<group>";
-		};
-		6445DE0F240787690060A324 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				6445DE10240787690060A324 /* ImpactFeedbackBridge.cpp */,
-				6445DE11240787690060A324 /* ImpactFeedbackDarwinBridge.cpp */,
-				6445DE12240787690060A324 /* ImpactFeedbackDarwinBridge.h */,
-				6445DE13240787690060A324 /* ImpactFeedbackFunctionLibrary.cpp */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		6445DE142407876D0060A324 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				6445DE152407876D0060A324 /* ImpactFeedbackFunctionLibrary.h */,
-				6445DE162407876D0060A324 /* ImpactFeedbackBridge.h */,
-			);
-			path = Public;
 			sourceTree = "<group>";
 		};
 		6445DE1724078C560060A324 /* Images */ = {
@@ -78,6 +53,15 @@
 				64B33F0F2416D7D00027BB2B /* ExampleProject.zip */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		64B33F102416D8C00027BB2B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6445DE152407876D0060A324 /* ImpactFeedbackFunctionLibrary.h */,
+				6445DE12240787690060A324 /* ImpactFeedbackDarwinBridge.h */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

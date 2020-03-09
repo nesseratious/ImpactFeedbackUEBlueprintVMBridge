@@ -7,11 +7,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
-#if TARGET_DARWIN
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#endif
 
 typedef enum {
     IFSelection,
@@ -33,10 +30,9 @@ public:
     
 };
 
-#if TARGET_DARWIN
 @interface ImpactFeedbackHelper : NSObject
 
 + (void)generateFeedback:(FeedbackType)type;
 
 @end
-#endif
+
