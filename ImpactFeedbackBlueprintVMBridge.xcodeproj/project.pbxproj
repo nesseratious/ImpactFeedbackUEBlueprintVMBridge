@@ -22,14 +22,14 @@
 		6445DE2524078E760060A324 /* ErrorNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ErrorNotification.png; sourceTree = "<group>"; };
 		6445DE2624078E760060A324 /* WarningNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WarningNotification.png; sourceTree = "<group>"; };
 		6445DE2724078E760060A324 /* MediumImpact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MediumImpact.png; sourceTree = "<group>"; };
-		64B33F0D2416D7200027BB2B /* ExampleProject.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = ExampleProject.zip; path = ExampleProject/ExampleProject.zip; sourceTree = SOURCE_ROOT; };
+		64B33F0F2416D7D00027BB2B /* ExampleProject.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ExampleProject.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		6445DE08240787550060A324 = {
 			isa = PBXGroup;
 			children = (
-				64B33F0C2416D7140027BB2B /* ExampleProjectUpdated */,
+				64B33F0E2416D7C60027BB2B /* Example */,
 				6445DE1724078C560060A324 /* Images */,
 				6445DE142407876D0060A324 /* Public */,
 				6445DE0F240787690060A324 /* Private */,
@@ -72,12 +72,12 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		64B33F0C2416D7140027BB2B /* ExampleProjectUpdated */ = {
+		64B33F0E2416D7C60027BB2B /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				64B33F0D2416D7200027BB2B /* ExampleProject.zip */,
+				64B33F0F2416D7D00027BB2B /* ExampleProject.zip */,
 			);
-			path = ExampleProjectUpdated;
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
