@@ -17,11 +17,7 @@ bool ImpactFeedbackDarwinBridge::GenerateFeedback(const FeedbackType type)
 bool ImpactFeedbackDarwinBridge::IsTapticEngineAvailable()
 {
     #if PLATFORM_IOS
-        if ([[UIDevice currentDevice] systemVersion].floatValue < 10.0) {
-            return false;
-        } else {
-            return true;
-        }
+    return !([[UIDevice currentDevice] systemVersion].floatValue < 10.0)
     #else
     return false;
     #endif
